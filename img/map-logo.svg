@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>ng-conf-icon-fullcolor-1024</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ng-conf-icon-fullcolor-1024" sketch:type="MSArtboardGroup">
+            <g id="ng-conf-icon" sketch:type="MSLayerGroup" transform="translate(66.000000, 50.000000)">
+                <path d="M446.971489,0 L17.3652789,151.300041 L134.685576,232.61393 L446.971489,122.640514 L760.507958,233.054321 L877.828223,151.740454 L446.971489,0 Z" id="blue" fill="#4285F4" sketch:type="MSShapeGroup"></path>
+                <path d="M819.607858,733.942857 L462.059134,923.542246 L462.059134,803.065642 L723.791875,664.285739 L777.643865,257.456113 L893.284096,177.306666 L819.607858,733.942857 Z" id="green" fill="#0F9D58" sketch:type="MSShapeGroup"></path>
+                <path d="M74.3351198,733.942857 L431.883844,923.542246 L431.883844,803.065642 L170.151102,664.285739 L116.108609,256.016933 L0.46839342,175.867497 L74.3351198,733.942857 Z" id="yellow" fill="#F4B400" sketch:type="MSShapeGroup"></path>
+                <path d="M446.971489,154.628571 L147.104541,260.228571 L198.025343,644.914286 L446.971489,776.914286 L695.917635,644.914286 L746.838437,260.228571 L446.971489,154.628571 Z" id="red-shield" fill="#DB4437" sketch:type="MSShapeGroup"></path>
+                <path d="M579,638 L655,638 L448,185 L240,638 L316,638 L361,534 L534,534 L579,638 L579,638 L579,638 Z M388,472 L448,334 L508,472 L388,472 L388,472 L388,472 Z" id="A" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
