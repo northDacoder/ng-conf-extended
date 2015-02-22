@@ -8,6 +8,7 @@
 todomvc.controller('SignupCtrl', ["$scope", "$firebase", function ($scope, $firebase) {
 	var url = '';
 	var fireRef = new Firebase(url);
+	$scope.count = 0;
 
 	$scope.addCoder = function () {
 		var firstName = $scope.firstName.trim();
@@ -28,7 +29,7 @@ todomvc.controller('SignupCtrl', ["$scope", "$firebase", function ($scope, $fire
 		$scope.email = '';
 	};
 
-	$scope.count = 20;
+	$scope.count++;
 
 	// Bind the todos to the firebase provider.
 	$scope.coders = $firebase(fireRef);
