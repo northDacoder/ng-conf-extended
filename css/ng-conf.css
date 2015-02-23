@@ -1,11 +1,11 @@
+
 .text-center {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
 
 .container-fluid {
-	background-color: #21A680;
-	background-color: white;
+	
 }
 
 .row#blue {
@@ -47,7 +47,35 @@ input[type=text]:focus {
 	font-weight: 300;
 }
 
-h3#date {
-	color: #333;
-	padding-bottom: 30px;
+#date {
+	color: rgba(255,255,255,1);
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+i.fa-green {
+	color: #42D918;
+}
+
+#description p {
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	font-family: 'Lato', sans-serif;
+}
+
+#description a {
+	color: rgba(255,255,255,1);
+}
+
+#description {
+	background: #eee;
+}
+
+#registered {
+	background-color: #646464;
+	background: linear-gradient(to right, #296ad4 0%, #4e8ef7 100%);
+}
+
+#header {
+	padding-bottom: 50px;
 }
