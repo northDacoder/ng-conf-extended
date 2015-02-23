@@ -14,22 +14,30 @@
 </head>
 <body ng-controller="SignupCtrl">
 	<div class="container-fluid">
-		<div class="row" id="header" style="margin-top: 50px;">
+		<div class="row" id="header">
 			<div class="col-sm-6 col-sm-offset-3">
-				<center><img src="img/ng-conf-extended.svg" class="img-responsive"></center>
+				<center><img src="img/ng-conf-extended.svg" class="img-responsive" id="ng-logo"></center>
 				<!--<center><img src="img/target-clear.png" width="300" class="img-responsive"></center>-->
+			</div>
+			<div id="date">
+				<h3 class="text-center" >March 5-6, 2015 <br><i class="icon ion-ios-location"></i> Target HQ - Brooklyn Park, MN</h3>
 			</div>
 		</div>
 		<div class="row" id="description">
-			<div class="col-sm-8 col-sm-offset-2">
-				<h3 class="text-center" id="date">March 5-6, 2015 <br><i class="icon ion-ios-location"></i> Target HQ - Brooklyn Park, MN</h3>
-				<p class="lead">We are very excited (& eager) to be an official remote extension of the highly anticpated AngularJS conference (<a href="http://www.ng-conf.org/extended"><i class="icon ion-social-angular"></i> ng-conf</a>), taking place March 5th & 6th in Salt Lake City, Utah. </p>
-				<p class="lead">Although we are not capable of teleporting everyone who RSVP's to Salt Lake City for the conference, we are able to <span class="label label-danger"><i class="fa fa-video-camera"></i> live stream</span> the entire <span class="label label-primary"><i class="icon ion-social-angular"></i> ng-conf</span> onto our giant projector screens, geek-out on Angular swag, hack on cool projects with other Target Devs, & learn how many of these technologies are being used by talented Developers around Target Engineering.</p>
+			<div class="col-sm-4 col-sm-offset-4">
+				<center><img src="img/angularjs-logo.png" class="img-responsive"></center>
+			</div>
+			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+				<h3 class="text-center">Angularists Unite!</h3>
+				<p class="lead">We are very excited & eager to be an official remote extension of the highly anticpated AngularJS conference <a href="http://www.ng-conf.org/extended" class="ng-link"><i class="icon ion-social-angular"></i> ng-conf</a>, taking place March 5th & 6th in Salt Lake City, Utah. <br><br>Although we are not capable of teleporting everyone who RSVP's to Salt Lake City for the conference, we are able to <span class="label label-success"><i class="fa fa-video-camera"></i> live stream</span> the entire <span class="label label-warning"><i class="icon ion-social-angular"></i> ng-conf</span> onto our giant projector screens, geek-out on Angular swag, hack on cool projects with other Target Devs, & learn how many of these technologies are being used by talented Developers around Target Engineering by simply getting together.<br><br>
+				<a href="http://www.ng-conf.org/schedule" id="ng-schedule" target="_blank" class="btn-lg btn btn-block"><i class="icon ion-clock"></i> ng-conf schedule</a>
+				</p>
 			</div>
 		</div>
-		<div class="row" id="blue">	
+		<div class="row" id="blue">
 			<div class="col-sm-4 col-sm-offset-4">
 				<form id="register-form">
+					<h3 class="text-center"><i class="fa fa-ticket"></i> Ticket Signup</h3>
 					<div class="form-group">
 						<input type="text" class="input-lg form-control" id="first-name" placeholder="First Name" ng-model="firstName" autofocus>
 					</div>
@@ -42,19 +50,16 @@
 					<div class="form-group">
 						<input type="text" class="input-lg form-control" id="title"      placeholder="Title" ng-model="title" autofocus>
 					</div>
-					<button type="submit" class="btn btn-lg btn-success btn-block" ng-click="addCoder()">Register</button>
+					<button type="submit" class="btn btn-lg btn-success btn-block" ng-click="addCoder()">REGISTER</button>
 				</form>
 			</div>
 		</div>
 		<div class="row" id="registered">	
-			<div class="col-sm-4 col-sm-offset-4">	
-				<div ng-show="count" ng-cloak>
-					<h2 class="text-center"><span class="label label-success" style="border-radius: 0;"><strong><i class="fa fa-ticket"></i> Registered: {{ count }}</strong></span></h2>
-				</div>
-
+			<div class="col-sm-6 col-sm-offset-3">	
 				<div ng-cloak>
+					<h3 class="text-center"><i class="fa fa-group"></i> Attending</h3>
 					<ul id="register-list" style="list-style-type: none; margin-top: 50px;" class="list-group">
-						<li class="list-group-item" ng-repeat="coder in coders"><i class="fa fa-check fa-green"></i> Attending: {{ coder.first }} {{ coder.last }} </li>
+						<li class="list-group-item" ng-repeat="coder in coders"><h2 class="attending"><img src="img/ng-conf-icon.png" width="50"> {{ coder.first }} {{ coder.last }} </h2></li>
 					</ul>
 				</div>
 				
