@@ -6,6 +6,7 @@
  * - exposes the model to the template and provides event handlers
  */
 todomvc.controller('SignupCtrl', ["$scope", "$firebase", function ($scope, $firebase) {
+	var url = "https://ngconftarget.firebaseio.com"
 	var fireRef = new Firebase(url);
 	$scope.count = 0;
 
